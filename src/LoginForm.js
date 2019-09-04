@@ -61,7 +61,7 @@ class LoginForm extends Component {
               onChange={this.handleChange}
             />
             <input
-              type="text"
+              type="password"
               name="password"
               placeholder="password"
               className="form-control"
@@ -72,6 +72,7 @@ class LoginForm extends Component {
             <input
               type="text"
               name="first_name"
+              placeholder="first name"
               className="form-control"
               value={this.state.first_name}
               onChange={this.handleChange}
@@ -79,6 +80,7 @@ class LoginForm extends Component {
             <input
               type="text"
               name="last_name"
+              placeholder="last name"
               className="form-control"
               value={this.state.last_name}
               onChange={this.handleChange}
@@ -86,6 +88,7 @@ class LoginForm extends Component {
             <input
               type="text"
               name="email"
+              placeholder="email"
               className="form-control"
               value={this.state.email}
               onChange={this.handleChange}
@@ -113,7 +116,7 @@ class LoginForm extends Component {
             onChange={this.handleChange}
           />
           <input
-            type="text"
+            type="password"
             name="password"
             placeholder="password"
             className="form-control"
@@ -131,4 +134,4 @@ class LoginForm extends Component {
   }
 }
 
-export default LoginForm;
+export default LoginForm; 

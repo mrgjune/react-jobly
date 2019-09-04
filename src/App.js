@@ -6,7 +6,7 @@ import JoblyApi from "./JoblyApi";
 import jwt from 'jsonwebtoken';
 import UserContext from "./userContext";
 
-//testing git push/pull fork yay
+
 class App extends Component {
   constructor(props) {
     super(props);
